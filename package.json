@@ -1,14 +1,14 @@
 {
-  "name": "portfolio_website",
+  "name": "portefolio-am",
   "version": "1.0.0",
-  "description": "Portfolio website",
+  "description": "portefolio website",
   "main": "index.js",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "",
+  "author": "Adrien MECHIN",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^4.11.0"
+  "dependencies": {
+    "node-sass": "^4.13.1"
   }
 }
