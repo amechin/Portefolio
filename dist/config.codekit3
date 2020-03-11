@@ -14,7 +14,7 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/about.html",
-		"oF": 0
+		"oF": 1
 		},
 	"\/contact.html": {
 		"cB": 0,
@@ -22,6 +22,16 @@
 		"oA": 0,
 		"oAP": "\/contact.html",
 		"oF": 0
+		},
+	"\/css\/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/main-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/css\/main.css": {
 		"aP": 1,
@@ -227,8 +237,8 @@
 		"oA": 0,
 		"oAP": "\/img\/leather.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/logo.png": {
@@ -255,6 +265,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/monitor-minimalism.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/photo.jpeg": {
+		"ft": 16384,
+		"iS": 14127,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/photo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
