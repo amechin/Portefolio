@@ -1,10 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+            integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+            crossorigin="anonymous"
+    />
+    <link
+            href="https://fonts.googleapis.com/css?family=Dosis"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css"/>
+    <title>Contactez Moi | Développeur Web</title>
 </head>
 <body>
+<!-- Header -->
+<header id="header-inner">
+    <div class="container">
+        <nav id="main-nav">
+            <img src="img/logo.png" alt="Mon Portfolio" id="logo">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html" class="current">A propos</a></li>
+                <li><a href="work.html">Expériences</a></li>
+                <li><a href="contact.html">Me Contacter</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
 
+<!-- Section A: Contact Form -->
+<section id="contact-a" class="text-center py-3">
+    <div class="container">
+        <h2 class="section-title">Me contacter</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Envoyer moi un message pour me présenter votre projet</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <div class="text-fields">
+                <input
+                        type="text"
+                        class="text-input name-input"
+                        placeholder="Nom"
+                        name="name"
+                />
+                <input
+                        type="text"
+                        class="text-input subject-input"
+                        placeholder="Objet"
+                        name="subject"
+                />
+                <input
+                        type="email"
+                        class="text-input email-input"
+                        placeholder="Email"
+                        name="email"
+                />
+                <input
+                        type="text"
+                        class="text-input phone-input"
+                        placeholder="Téléphone"
+                        name="phone"
+                />
+                <textarea
+                        class="text-input message-input"
+                        placeholder="Votre Message"
+                        name="message"
+                ></textarea>
+                <div class="my-2">
+                    <div data-netlify-recaptcha="true"></div>
+                </div>
+            </div>
+            <button type="submit" class="btn-dark">ENVOYER</button>
+        </form>
+    </div>
+</section>
+
+<!-- Section B: Contact Info -->
+<section id="contact-b" class="py-3 bg-dark">
+    <div class="container">
+        <div class="contact-info">
+            <div>
+                <i class="fas fa-envelope fa-2x"></i>
+                <h3>Email</h3>
+                <p>adrien.mechin@gmail.com</p>
+            </div>
+            <div>
+                <i class="fas fa-phone fa-2x"></i>
+                <h3>Téléphone</h3>
+                <p>06 69 17 14 26</p>
+            </div>
+            <div>
+                <i class="fas fa-address-card fa-2x"></i>
+                <h3>Adresse</h3>
+                <p>Strasbourg</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section C: Tagline -->
+<section id="contact-c" class="bg-main py-4">
+    <div class="container">
+        <h1>Commençons votre projet ! </h1>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="main-footer">
+    <div class="footer-content container">
+        <p>Copyright &copy; 2020. Tous droits réservés</p>
+        <div class="social">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
